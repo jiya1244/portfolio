@@ -113,9 +113,10 @@ body {
 
 .hero .container {
   display: flex;
-  padding: 60px;
-  gap: 60px;
+  flex-direction: column; /* Center the photo */
   align-items: center;
+  padding: 60px;
+  gap: 30px;
   animation: fadeIn 0.8s ease-in-out;
 }
 
